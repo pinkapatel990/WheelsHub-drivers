@@ -1,0 +1,69 @@
+.nav-content{
+    margin-top: 0rem;
+    display: flex;
+}
+body{
+
+    background-color: #ebe9ea ;
+}
+
+.sub-content{
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.msg-box{
+    padding: 0.4rem;
+    width: 68rem;
+}
+
+.msg-box button:hover{
+    border: none;
+    outline: none;
+}
+.msg-box .msg-inner{
+    display: flex;
+}
+table{
+    background-color: white;
+    text-align: center;
+    border: 1px solid #f2f4f6;
+    padding: 3px;
+    font-size: 13px;
+    /* border: 1px solid black; */
+  
+}
+.theame{
+  background-color: rgb(231, 90, 90);
+}
+
+/* th:nth-child(1),
+td:nth-child(1) {
+  width: 200px; 
+} */
+/* 
+th:nth-child(2),
+td:nth-child(2) {
+  width: 190px; 
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 90px; 
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 200px; 
+}
+th:nth-child(5),
+td:nth-child(5) {contect-body
+  width: 100px; 
+} */
+td{
+  padding: 0.5rem;
+}
+@media screen and (max-width:980px) {
+  .msg-box{
+    padding: 0.4rem;
+    width: 6rem;
+}
+}

@@ -1,0 +1,38 @@
+.frame-number {
+    background-color: #f5f1f1;
+    margin-left: 17rem;
+    width: 45rem;
+    height: 100vh;
+}
+
+.frame-content 
+h2 {
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.input-frame{
+    display: grid;
+    margin-left: 2rem;
+
+}
+.input-name{
+    width: 30rem;
+    
+}
+input[type="text"]{
+    padding: 1.2rem;
+}
+.btn-next{
+    /* margin-top: 15rem; */
+    padding: 0.4rem;
+    width: 41rem;
+    background-color: black;
+    color: #f5f1f1;
+    border: none;
+}
+.errorMsg{
+
+    height: 1rem;
+    color: red;
+}

@@ -1,0 +1,157 @@
+.main-car-contact {
+  margin: 1rem;
+  border:1px solid rgb(238, 233, 233);
+  width:65rem;
+  background: #fdfdfd;
+  /* margin-left: -55rem; */
+}
+/* .nav-content{
+  display: flex;
+} */
+.form-field {
+  display: grid;
+  width: 30rem;
+  margin-left: 3rem;
+}
+
+.input-control2 {
+  margin-top: -1rem;
+  width: 25rem;
+  padding: 1rem;
+  /* padding: 1rem; */
+}
+
+.form-field2 {
+  margin-top: -0.5rem;
+  display: grid;
+}
+
+.input_design {
+  padding: 2rem;
+  border: 1px solid gray;
+  width: 25rem;
+}
+
+
+/* file upload */
+#picture__input {
+  display: none;
+}
+
+#multi-image {
+  display: none;
+}
+
+.picture {
+  width: 200px;
+  height: 100px;
+  aspect-ratio: 16/9;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: color 300ms ease-in-out, background 300ms ease-in-out;
+  outline: none;
+  margin: 0.3rem;
+  /* overflow: hidden; */
+}
+
+.head {
+  margin-left: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+  /* border-bottom: 1px solid rgb(184, 177, 177); */
+  /* width: 35%; */
+  text-align: center;
+}
+
+.picture__img {
+  width: 50rem;
+  height: 6rem;
+}
+
+.my-frame-form {
+  display: flex;
+  margin-left: 0%;
+}
+
+.img-title {
+  margin-left: 4rem;
+  font-weight: bold;
+  color: black;
+ 
+}
+
+.image-upload {
+  margin-left: 4rem;
+
+}
+
+.mul-pic-container {
+  display: flex;
+}
+
+.multi_picture {
+  width: 10rem;
+  margin-left: 1rem;
+}
+
+.multi_picture:focus {
+  background: #f6fff6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.multi-tab {
+  width: 80%;
+}
+
+.btn-add {
+  margin-top:2rem;
+  padding: 0.8rem;
+  width: 55rem;
+  background: #db5b5b;
+  border: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  font-weight: bold;
+}
+
+.date-input {
+  padding-top: -1rem;
+}
+
+.input {
+  width: 20rem;
+}
+
+.image-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.dropdowns{
+  padding: 1rem;
+  height: 2rem;
+}
+.search_group{
+  align-items: center;
+  margin-left: 20rem;
+}
+.header__search {
+  display: flex;
+  padding: .40rem .75rem;
+  background-color: var(--first-color-light);
+  border-radius: .25rem;
+}
+.header__input {
+  /* padding: 2rem; */
+  border: none;
+  outline: none;
+  background-color: var(--first-color-light);
+}

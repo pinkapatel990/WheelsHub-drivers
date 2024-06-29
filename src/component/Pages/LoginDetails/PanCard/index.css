@@ -1,0 +1,23 @@
+.main-frame{
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+.img-pan{
+    margin-top: 1rem;
+    width: 30rem;
+}
+.input-pan{
+    margin-top: 0.8rem;
+    display: grid;
+}
+.input-num{
+    width: 30rem;
+}
+.pan-btn{
+    width: 30rem;
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+}

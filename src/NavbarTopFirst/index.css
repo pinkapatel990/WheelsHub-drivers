@@ -1,0 +1,35 @@
+.title-top{
+    margin-top: 1rem;
+}
+
+.img-phone{
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 2rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.icon-phone{
+    margin-top: 1rem;
+    /* margin: 0.3rem; */
+}
+@media (max-width: 768px) {
+    #top_nav{
+        width: 100%;
+    }
+    .title-top{
+        margin-top: 0rem;
+    }
+    .img-phone{
+        /* margin-left: 20rem; */
+        margin-top: 1rem;
+        width: 2rem;
+    }
+    
+}

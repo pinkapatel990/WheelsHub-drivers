@@ -1,0 +1,36 @@
+
+.main-contant{
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+#login img{
+    margin: 10px 0;
+  }
+  #login .center {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #login .login {
+    max-width: 300px;
+    margin: 35px auto;
+  }
+  
+  #login .login-form{
+    padding:2px 25px;
+  }
+  .text{
+    font-size: small;
+    color: rgb(24, 17, 17);
+  }
+  .my-input{
+    padding: 1rem;
+  }
+ @media screen and (max-width: 800px)  {
+  
+   input[type=text],input[type=password] {
+    width: 90%;
+    margin-top: 0;
+  }
+ }
+ 

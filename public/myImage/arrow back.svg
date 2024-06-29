@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow back</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-header-off-duty-with-back" transform="translate(-20.000000, -44.000000)">
+            <g id="arrow-back">
+                <g transform="translate(16.000000, 40.000000)">
+                    <rect id="Rectangle-118" x="0" y="0" width="24" height="24"/>
+                    <polygon id="Shape" fill="#4C5054" points="20 11 7.8 11 13.4 5.4 12 4 4 12 12 20 13.4 18.6 7.8 13 20 13"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

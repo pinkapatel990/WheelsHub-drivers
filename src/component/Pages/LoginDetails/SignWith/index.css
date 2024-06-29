@@ -1,0 +1,79 @@
+.maintant-frame {
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-left: 22rem;
+    width: 45rem;
+    height: 43rem;
+}
+
+.maintant-frame p {
+    margin: 1rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: black;
+    font-size: 19px;
+    /* width: 76%; */
+}
+
+.img-back {
+    /* margin-left: 20rem; */
+    width: 50rem;
+    background: transparent;
+    height: 30rem;
+}
+
+.btn-phone {
+    margin: 2rem;
+    margin-top: 0.4rem;
+    /* margin-left: 20rem; */
+    width: 40rem;
+    padding: 0.5rem;
+    color: #efefef;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.btn-google {
+    margin-top: 0.3rem;
+    /* margin-left: 20rem; */
+    padding: 0.5rem;
+    width: 40rem;
+    border: none;
+    background-color: #ddd9d9;
+}
+
+.backArrow {
+    background-color: transparent;
+    margin: 0.3rem;
+    z-index: inherit;
+}
+
+@media (max-width: 766px) {
+    
+    .maintant-frame {
+        margin-left: 0rem;
+        width: 22rem;
+    }
+    .btn-phone {
+        margin: 2rem;
+        margin-top: 0.4rem;
+        /* margin-left: 20rem; */
+        width: 18rem;
+        padding: 0.5rem;
+        
+    }
+    .img-back {
+        /* margin-left: 20rem; */
+        width: 50rem;
+        background: transparent;
+        height: 20rem;
+    }
+    
+}
+@media (min-width: 768px)  and (max-width:1080px) {
+    /* CSS styles here */
+    .maintant-frame {
+        margin-left: 5rem;
+        width: 45rem;
+    }
+}

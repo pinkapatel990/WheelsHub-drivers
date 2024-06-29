@@ -1,0 +1,134 @@
+.dash_main{
+    background-color: white;
+    padding: 2rem;
+   
+}
+
+.item_client{
+    background-image: url("../../../../public/photos/p2.webp");
+  
+    border-radius: 5px;
+    h5{
+        color: black;
+        font-weight: bolder;
+    }
+    p{
+        color: black;
+    }
+
+    img{
+        background: transparent;
+        width: 150px;
+    }
+
+
+}
+.driver_item{
+    background-image: url("../../../../public/photos/p3.jpeg");
+
+    img{
+        width: 100px;
+        margin-left: 2rem;
+    }
+    h5{
+        color: black;
+        font-weight: bolder;
+    }
+    p{
+        color: black;
+    }
+}
+.item_service{
+    background-image: url("../../../../public/photos/download.jpeg");
+    img{
+        width:80px;
+        margin-left: 2rem;
+        margin-top: 0.3rem;
+    }
+    h5{
+        color: black;
+        font-weight: bold;
+    }
+    p{
+        color:black
+    }
+}
+.item_third{
+    background-image: url("../../../../public/photos/pink.avif");
+    img{
+        width: 90px;
+        margin-top: 0.3rem;
+        margin-left: 2rem;
+    }
+    h5{
+        color: black;
+        font-weight: bold;
+    }
+    p{
+        color:black;
+    }
+}
+.online_status{
+    background-color: white;
+    padding: 1rem;
+
+    
+}
+/* .online-btn{ */
+    /* border: 1px solid black; */
+    .active_green{
+        padding: 0.4rem;
+        width: 100%;
+        border: none;
+        font-weight: bolder;
+        background-color: green;
+        color: white;
+    }
+/* } */
+/* .offine-btn{ */
+    .deactive_red{
+        padding: 0.4rem;
+        width: 100%;
+        border: none;
+        font-weight: bolder;
+        background-color: red;
+        color: white;
+    }
+/* } */
+.online_suggeest{
+  
+    background-color: white;
+}
+.green_online{
+    margin: 2px;
+    list-style: none;
+    li{
+        margin: 5px;
+        padding: 2px;
+    }
+    .box{
+        border: 1px solid black;
+        background-color: green;
+        width: 20px;
+        height: 10px;
+        margin-top: 13px;
+    }
+}
+.red_online{
+    margin: 2px;
+    list-style: none;
+    li{
+        margin: 5px;
+        padding: 2px;
+    }
+    .box2{
+        border: 1px solid black;
+        background-color: red;
+        width: 20px;
+        height: 10px;
+        margin-top: 13px;
+    }
+}
+.Recently_booking{
+    margin: 1rem;
+}

@@ -1,0 +1,23 @@
+.license-frame{
+    margin: 1rem;
+    margin-left: 25rem;
+}
+.img-icon{
+    width: 30rem;
+}
+.input-licence{
+    margin-top: 2rem;
+    display: grid;
+}
+.licen-num{
+    width: 28rem;
+}
+.btn-licence{
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 28rem;
+    padding: 0.3rem;
+}

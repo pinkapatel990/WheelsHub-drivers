@@ -1,0 +1,188 @@
+.nav-width {
+    width: 100rem;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+
+.container-frame {
+    margin-top: 2rem;
+    /* margin-left: 20rem; */
+}
+
+.container-frame h3 {
+    margin-left: 28rem;
+}
+
+.container-frame p {
+    margin-left: 28rem;
+    font-weight: bolder;
+    color: rgb(54, 52, 52);
+}
+
+.user-del {
+    margin-top: 2rem;
+    margin-left: 28rem;
+}
+
+.article1 {
+    display: flex;
+    width: 27rem;
+    cursor: pointer;
+    /* background-color: aqua; */
+
+}
+
+.blue-line {
+    display: flex;
+}
+
+.succees {
+    color: green;
+}
+
+.article1.disabled {
+    opacity: 0.5;
+    /* You can adjust the opacity to your preference */
+    pointer-events: none;
+    /* Prevents mouse interaction with the element */
+}
+
+/* Bootstrap's disabled class for additional styling */
+.article1.disabled h6,
+.article1.disabled img {
+    filter: grayscale(100%);
+    /* Example: grayscale the text and image */
+}
+
+.border-line {
+
+    border-bottom: 1px solid rgb(24, 22, 22);
+}
+
+.arrow-sign {
+    margin-left: 19rem;
+    width: 20px;
+}
+
+.border-line {
+    border-bottom: 1px solid grey;
+}
+
+.article2 {
+    margin-left: 0rem;
+    display: flex;
+    width: 30rem;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.5;
+    /* You can adjust the opacity to your preference */
+    pointer-events: none;
+    /* Prevents mouse interaction with the element */
+    display: block;
+    height: 2em;
+    background-color: #f36565;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    border: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    border-radius: .25em;
+    text-decoration: none;
+    width: 25rem;
+}
+
+/* Bootstrap's disabled class for additional styling */
+.disabled h6,
+.disabled img {
+    filter: grayscale(100%);
+    /* Example: grayscale the text and image */
+}
+
+.arrow-sign1 {
+    margin-left: 15rem;
+    width: 20px;
+}
+
+.arrow-sign2 {
+    margin-left: 21rem;
+    width: 20px;
+}
+
+.slider {
+    overflow-y: hidden;
+    max-height: 500px;
+    /* approximate max height */
+    box-sizing: border-box;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.slider.closed {
+    max-height: 0;
+}
+
+
+
+/* // slider styling */
+.slider {
+    /* background-color: white; */
+    padding: 0 1em;
+    margin: 1em 0;
+    border-radius: .2em;
+}
+
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 480px;
+    overflow: visible;
+}
+
+/* h1 {
+    font-weight: 100;
+    color: #222
+  } */
+
+
+.button {
+    display: block;
+    height: 2em;
+    background-color: #f36565;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    border: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    border-radius: .25em;
+    text-decoration: none;
+    width: 25rem;
+    
+
+    &:hover {
+        text-decoration: none;
+        background-color: #e70d0d;
+        border: none;
+    }
+
+    &:active {
+        text-decoration: none;
+        background-color: darken(#e70d0d, 3%);
+        border: none;
+    }
+}
+.card1{
+    margin-left: 2rem;
+}
+.title-head{
+    margin-left: 2rem;
+}
